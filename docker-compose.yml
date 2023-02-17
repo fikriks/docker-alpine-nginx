@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+    image: fikriks14/alpine-nginx:latest
+    ports: 
+    - 80:80
